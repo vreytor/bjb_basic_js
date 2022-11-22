@@ -51,6 +51,7 @@ input {
     background-color: yellow;
     color: black;
     cursor: pointer;
+    border: none;
 }
 
 input:hover {
