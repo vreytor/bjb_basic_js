@@ -9,18 +9,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400;600;700&display=swap" rel="stylesheet">
     
     <!-- Styles CSS -->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/r13.css">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
 
 
-    <title>Ejercicios JavaScript</title>
+    <title>Reto Sesión 13</title>
     
     
 </head>
 <body>
-    <section>
+    <section class="block 1">
         <h1>Calculadora</h1>
         <form action="">
             <input id="valor1" type="number">
@@ -31,22 +31,22 @@
                 <option value="division">/</option>
             </select>
             <input id="valor2" type="number">
-            <input type="button" id="btn_calculator" value="Calculamelo" onclick="calculamelo();"></input>
-            <div id="resultado1"></div>
+            <input type="button" id="btn_calculator" value="Calcular" onclick="calculamelo();"></input>
+            <div class="solucion" id="resultado1"></div>
         </form>
     </section>
     
-    <section>
+    <section class="block 2">
         <h1>Calculadora 20%</h1>
         <form action="">
             <input id="valor20" type="number">
             
             <input type="button" id="btn_porcentaje" value="20%" onclick="porcentaje();"></input>
-            <div id="resultado20"></div>
+            <div class="solucion" id="resultado20"></div>
         </form>
     </section>
 
-    <section>
+    <section class="block 3">
         <h1>Convierte metros a cm y mm</h1>
         <form action="">
             <input id="valormm" type="number">
@@ -55,72 +55,72 @@
             <p>Centímetros</p>
             <div id="resultado_cm"></div>
             <p>Milímetros</p>
-            <div id="resultado_mm"></div>
+            <div class="solucion" id="resultado_mm"></div>
         </form>
     </section>  
     
-    <section>
+    <section class="block 4">
         <h1>Área del Triángulo</h1>
         <form action="">
             <input id="valor_b" type="number" placeholder="Base">            
             <input id="valor_h" type="number" placeholder="Altura">            
             <input type="button" id="btn_tri" value="Calcular área" onclick="triangulo();"></input>
-            <div id="resultado_triangulo"></div>
+            <div class="solucion" id="resultado_triangulo"></div>
         </form>
     </section>  
    
-    <section>
+    <section class="block 5">
         <h1>Dolares a Soles</h1>
         <form action="">
             <input id="valor_dolar" type="number" placeholder="Dolares">            
             <input type="button" id="btn_soles" value="Convertir a soles" onclick="soles();"></input>
-            <div id="resultado_soles"></div>
+            <div class="solucion" id="resultado_soles"></div>
         </form>
     </section>  
 
-    <section>
+    <section class="block 6">
         <h1>Pulgadas a milimetros</h1>
         <form action="">
             <input id="valor_pulgadas" type="number" placeholder="Pulgadas">            
             <input type="button" id="btn_pulgadas" value="Convertir a mm" onclick="pulgadas();">
-            <div id="resultado_pulgadas"></div>
+            <div class="solucion" id="resultado_pulgadas"></div>
         </form>
     </section>
 
-    <section>
+    <section class="block 7">
         <h1>Suma 3 cifras</h1>
         <form action="">
             <input id="valor_cifras" type="text" placeholder="3 cifras" maxlength="3" minlength="3">            
             <input type="button" id="3 cifras" value="Suma cifras" onclick="cifras();">
-            <div id="resultado_cifras"></div>
+            <div class="solucion" id="resultado_cifras"></div>
         </form>
     </section>
     
-    <section>
+    <section class="block 8">
         <h1>Porcentajes Socios</h1>
         <input type="number" id="socios" placeholder="Añade el monto">
         <input type="button" id="btn-socios" value="Repartir" onclick="repartija();">
         <p>Socia A - 30%</p>
-        <div id="parte-sa"></div>
+        <div class="solucion" id="parte-sa"></div>
         <p>Socia B - 20%</p>
-        <div id="parte-sb"></div>
+        <div class="solucion" id="parte-sb"></div>
         <p>Socia C - 50%</p>
-        <div id="parte-sc"></div>
+        <div class="solucion" id="parte-sc"></div>
     </section>
 
-    <section>
+    <section class="block 9">
         <h1>Calcular IGV</h1>
         <form action="">
             <input id="costo" type="number" placeholder="Precio base">            
             <input type="button" id="btn-igv" value="Calcula IGV" onclick="igv();">
             <p>IGV</p>
-            <div id="igv"></div>
+            <div class="solucion" id="igv"></div>
             <p>Precio Total</p>
-            <div id="total"></div>
+            <div class="solucion" id="total"></div>
         </form>
     </section>
     
-    <section>
+    <section class="block 10">
         <h1>Entradas</h1>
         <form action="">
             <label for="">N° Entradas Generales</label>
@@ -133,14 +133,14 @@
         
             <input type="button" id="btn-entradas" value="Calcular" onclick="entradas();">
             <p>Recaudado en Entradas Generales</p>
-            <div id="general"></div>
+            <div class="solucion" id="general"></div>
             <p>Recaudado en Entradas +65</p>
-            <div id="mayores"></div>
+            <div class="solucion" id="mayores"></div>
             <p>Recaudado en Entradas Menores</p>
-            <div id="menor"></div>
+            <divclass="solucion" id="menor"></divclass=>
             
             <p>Total Recaudado</p>
-            <div id="total_entradas"></div>
+            <div class="solucion" id="total_entradas"></div>
         </form>
     </section>
 </body>
